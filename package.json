@@ -1,0 +1,23 @@
+{
+  "name": "jogofinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jogar": "npx ts-node-dev --clear src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.15",
+    "@types/prompt-sync": "^4.2.0",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
